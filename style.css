@@ -41,7 +41,6 @@ font-size: 30px;
 
 li a:active{
 	color: black;
-   background-color: black;
 }
 
 .navbar {
@@ -50,9 +49,6 @@ li a:active{
   overflow: auto;
 }
 
-.current {
-	color: green;
-}		
 body {
   background-color: white;
 margin-right: 150px;
