@@ -89,4 +89,11 @@ div.i{
   margin-right: auto;
 }
 
+.flex-container > div {
+  background-color: lightgray;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
 
