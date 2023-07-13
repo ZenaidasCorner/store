@@ -100,20 +100,12 @@ div.i{
 	justify-content: center;
 	width: 100%
 }
-/*
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
-
-/* Slideshow container 
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
-
-/* Next & previous buttons 
+/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -129,17 +121,22 @@ img {vertical-align: middle;}
   user-select: none;
 }
 
-/* Position the "next button" to the right 
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
-
-/* On hover, add a black background color with a little bit see-through 
+/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
+/*
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
 
 /* The dots/bullets/indicators 
 .dot {
