@@ -94,5 +94,11 @@ div.i{
   padding: 20px;
   font-size: 30px;
 }
+.box{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%
+}
 
 
